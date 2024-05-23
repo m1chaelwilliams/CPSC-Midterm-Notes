@@ -68,10 +68,14 @@ Google needs both of these as they use multiple data centers. This makes searchi
 # 5C
 *__Prompt__: Speedup Formula*
 $$
-\begin{align*}\\
-n &= number\ of\ processors\\
-p &= portion\ can\ be\ parallelized\\
-&= \frac{1}{(1-p)+\frac{p}{n}}
-\end{align*}
+n = num\ processors
 $$
+$$
+p = portion\ can\ be\ parallelized
+$$
+$$
+\frac{1}{(1-p)+\frac{p}{n}}
+$$
+
+
 
